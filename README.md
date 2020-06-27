@@ -2,7 +2,7 @@
 
 If you really want to learn while enjoying coffee, visit the master: Paul McWhorter -> (https://www.youtube.com/channel/UCfYfK0tzHZTpNFrc_NDKfTA)
 
-This is a test of the rtsp protocol from a Raspberry pi to Jetson Nano and Jetson Xavier:
+This is a test of the rtsp protocol streaming a video from a Raspberry Pi and show it on Jetson Nano and Jetson Xavier:
 
 A: Streaming a RPi Camera video:
     Source: https://helloraspberrypi.blogspot.com/2019/02/raspberry-pi-stream-video-to-vlc-player.html
@@ -12,7 +12,7 @@ A: Streaming a RPi Camera video:
 
 B: Using ffmpeg.
 
-1. Install ffmpeg:   Instructions here: 
+1. Install ffmpeg:   Instructions here:  ;)
     https://toptechboy.com/low-cost-raspberry-pi-ip-camera/
                   
   Also visit this post if you are going to use the RPi Camera: 
@@ -35,5 +35,5 @@ B: Using ffmpeg.
   
     Used VLC on a PC: Media --> Open Network Stream... --> rtsp://raspberrypi_ip:80/live/stream
     
-5. Run the Python program openCV-rtsp.py on your Jetson Nano or Xavier
+5. Run the Python program openCV-rtsp.py on your Jetson Nano or Xavier 
 

@@ -12,7 +12,7 @@ A: Streaming a RPi Camera video:
 
 B: Using ffmpeg.
 
-1. Install ffmpeg:   Instructions here:  ;)
+1. Install ffmpeg:   Instructions here:  ;-)
 
     https://toptechboy.com/low-cost-raspberry-pi-ip-camera/
                   

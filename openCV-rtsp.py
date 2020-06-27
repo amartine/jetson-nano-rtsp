@@ -1,7 +1,7 @@
 import cv2
 #print(cv2.__version__)
 
-camSet= 'rtsp://192.168.1.27:80/live/stream'
+camSet= 'rtsp://your_rpi_ip:80/live/stream'
 cam = cv2.VideoCapture(camSet)
 
 cv2.namedWindow('Camera')

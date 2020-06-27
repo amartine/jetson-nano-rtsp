@@ -4,13 +4,13 @@ If you really want to learn while enjoying coffee, visit the master: Paul McWhor
 
 This is a test of the rtsp protocol from a Raspberry pi to Jetson Nano and Jetson Xavier:
 
-Streaming a RPi Camera video:
+A: Streaming a RPi Camera video:
     Source: https://helloraspberrypi.blogspot.com/2019/02/raspberry-pi-stream-video-to-vlc-player.html
 
 1. On terminal run this commad: 
     <code>$raspivid -o - -t 0 -n -w 320 -h 240 -fps 30| cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:80/live/stream}' :demux=h264</code>
 
-Using ffmpeg.
+B: Using ffmpeg.
 
 1. Install ffmpeg:   Instructions here: 
     https://toptechboy.com/low-cost-raspberry-pi-ip-camera/
